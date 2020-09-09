@@ -1,0 +1,90 @@
+/* 
+    CSS Rule to specify font-family.
+
+    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif Caption', serif; 
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif Caption', serif;
+}
+
+body {}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/alpha7.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    color: #ffffff;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.navbar {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar button, .content button {
+    color: #ffffff;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hero .content {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.hero .content small {
+    font-size: 20px;
+}
+
+.hero. content h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+.hero .sidebar {
+    width: 100px;
+    height: 100vh;
+    background: linear-gradient(green, transparent, green); /*#222f3e*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+

@@ -53,17 +53,19 @@
 
 .hero .navbar button, .content button {
     color: #ffffff;
-    padding: 10px 25px;
+    padding: 15px 30px;
+    font-size: 20px;
     background: transparent;
     border: 1px solid #ffffff;
     outline: none;
     cursor: pointer;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    box-shadow: 4px 1px 50px #000000;
+    /* border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; */
 }
 
 .hero .navbar button:hover, .content button:hover {
-    background: #008000;
+    background: #008000; /*rgb(0,128,0) */
 }
 
 .hero .content small {
@@ -84,12 +86,13 @@
     font-size: 80px;
     margin: 10px 0 30px;
     line-height: 80px;
+    text-shadow: 4px 1px 50px #000000;
 }
 
 .hero .sidebar {
     width: 50px;
     height: 100vh;
-    background: linear-gradient(green, transparent, green); /*#222f3e*/
+    background: linear-gradient(transparent, green, transparent, green, transparent); /*#222f3e*/
     position: absolute;
     left: 0;
     top: 0;
@@ -97,9 +100,16 @@
 
 
 
+.hero .sidebar .social-links img {
+    width: 35px;
+    margin: 5px auto;
+    cursor: pointer;
+}
 
-
-
-
-
-
+.hero .sidebar .social-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

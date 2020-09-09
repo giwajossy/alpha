@@ -12,7 +12,6 @@
     font-family: 'PT Serif Caption', serif;
 }
 
-body {}
 
 
 .hero {
@@ -25,14 +24,8 @@ body {}
     overflow: hidden;
 }
 
-.logo {
-    color: #ffffff;
-    width: 100px;
-    cursor: pointer;
-    font-family: 'PT Serif Caption', serif;
-}
 
-.navbar {
+.hero .navbar {
     width: 85%;
     height: 15%;
     margin: auto;
@@ -41,7 +34,24 @@ body {}
     justify-content: space-between;
 }
 
-.navbar button, .content button {
+
+.hero .navbar .logo {
+    color: #ffffff;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.hero .navbar {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .navbar button, .content button {
     color: #ffffff;
     padding: 10px 25px;
     background: transparent;
@@ -50,6 +60,14 @@ body {}
     cursor: pointer;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.hero .navbar button:hover, .content button:hover {
+    background: #008000;
+}
+
+.hero .content small {
+    font-size: 16px;
 }
 
 .hero .content {
@@ -61,18 +79,15 @@ body {}
     z-index: 2;
 }
 
-.hero .content small {
-    font-size: 20px;
-}
 
-.hero. content h1 {
+.hero .content h1 {
     font-size: 80px;
     margin: 10px 0 30px;
     line-height: 80px;
 }
 
 .hero .sidebar {
-    width: 100px;
+    width: 50px;
     height: 100vh;
     background: linear-gradient(green, transparent, green); /*#222f3e*/
     position: absolute;

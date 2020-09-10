@@ -15,7 +15,7 @@ A responsive Website for an imaginary fast food joint - written in HTML, CSS, an
 
 
 ### Resources 🌎
-* **Dominant Color**: #222f3e [Imperial Primer].
+* **Dominant Color**: #008000 [Imperial Primer].
 * **Secondary Colors**: #000000 [Black] && #ffffff [White].
 * **Font Family**: "PT Serif Caption", "PT Serif", Sans-serif.
 * **Copyright-free Images**: [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com).

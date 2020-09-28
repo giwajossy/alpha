@@ -1,6 +1,6 @@
 # Project Alpha 📽️
 
-Written in HTML, CSS, and VanillaJS, Alpha showcases important sites in Sambisa forest; a forest in Borno state, northeast Nigeria.
+Written in HTML, CSS, and VanillaJS, Alpha showcases intriguing facts and sites in Sambisa forest; a forest in Borno state, northeast Nigeria.
 [Preview Website](https://buildalpha.netlify.app) 🔗
 
 

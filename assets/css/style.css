@@ -233,11 +233,11 @@ a.pulsingButton:hover {
 /* Media Queries */
 
 
-/* Mobile View */
+/* Mobile View Screening*/
 @media screen and (max-width: 700px) {
 
     .hero .navbar .logo, .hero .content small, .hero .content h1, .hero .content .pulsingButton {
-        margin-left: 10%;
+        margin-left: 13%;
     }
 
     .hero .content small {
@@ -253,3 +253,39 @@ a.pulsingButton:hover {
     
     
 }
+
+
+
+
+/*  Tab View Screening */
+
+ /* Portrait layout */
+@media only screen and (min-device-width: 701px) and (max-device-width: 1024px) and (orientation:portrait) {
+    
+    .hero .navbar .logo, .hero .content small, .hero .content h1, .hero .content .pulsingButton {
+        margin-left: 17%;
+    }
+
+    .hero .navbar .logo {
+        font-size: 40px;
+    }
+
+    .hero .content small {
+        font-size: 30px;
+        /* width: 100%; */
+    }
+
+    .hero .content h1 {
+        font-size: 80px;
+        line-height: 85px;
+        width: 100%;
+    }
+
+}
+
+
+/* Landscape layout */
+/* @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    
+
+} */

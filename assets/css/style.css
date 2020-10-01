@@ -12,6 +12,8 @@
     background-position: center;
     position: relative;
     overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .hero .navbar {
@@ -139,9 +141,11 @@ a.pulsingButton:hover {
     width: 50px;
     height: 100vh;
     background: linear-gradient(rgb(183, 61, 6), rgb(183, 61, 6)); 
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .hero .sidebar .social-links{
@@ -301,3 +305,57 @@ a.pulsingButton:hover {
     
 
 } */
+
+
+
+
+/* explore page */
+
+.wrap {
+    display: flex;
+    
+}
+
+.intro {
+    width: 50%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 14% 11% 5%;
+}
+
+.vl {
+    border-left: 6px solid #b73d06;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-top: 9%;
+}
+
+.scroll-bg {
+    width: 50%;
+    padding: 7% 5%;
+    color: #7c2a04;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 7% 7% 5%;
+}
+
+.scroll-bg p {
+    line-height: 1.5;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.game-reserve {
+    background-color: #ffffff;
+    padding: 7% 7%;
+    text-align: center;
+    color: #7c2a04;
+    margin: 12% 15%;
+}
+
+.game-reserve p {
+    line-height: 1.5;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}

@@ -317,7 +317,7 @@ a.pulsingButton:hover {
 }
 
 .intro {
-    width: 50%;
+    width: 70%;
     color: #ffffff;
     font-size: 1.5rem;
     margin: 14% 11% 5%;
@@ -359,3 +359,35 @@ a.pulsingButton:hover {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+
+
+/* explore page mobile view */
+
+
+@media only screen and (max-width: 360px) {
+  
+    .wrap {
+        display: block;
+    }
+     
+    .vl {
+        border: 0;
+    }
+
+    .intro {
+        font-size: 1.2rem;
+        margin: 14% 25% 10%;
+    }
+
+    .scroll-bg {
+        padding: 7% 10%;
+        margin: 7% 20% 10%;
+    }
+
+    .game-reserve {
+        padding: 7% 10%;
+        margin: 7% 5%;
+    }
+
+  
+  }

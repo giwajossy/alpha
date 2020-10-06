@@ -380,13 +380,26 @@ a.pulsingButton:hover {
     }
 
     .scroll-bg {
+        text-align: left;
         padding: 7% 10%;
         margin: 7% 20% 10%;
+        line-height: 1.2;
+        word-spacing: 2px;
+    }
+
+    .scroll-bg h1 {
+        font-size: 1.5rem;
     }
 
     .game-reserve {
-        padding: 7% 10%;
+        line-height: 1.2;
+        word-spacing: 2px;
+        padding: 10% 10%;
         margin: 7% 5%;
+    }
+
+    .game-reserve h1 {
+        font-size: 1.5rem;
     }
 
   

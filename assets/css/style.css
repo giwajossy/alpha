@@ -241,7 +241,6 @@ a.pulsingButton:hover {
 
 
 
-
 /* Media Queries */
 
 
@@ -332,7 +331,7 @@ a.pulsingButton:hover {
 }
 
 .scroll-bg {
-    width: 50%;
+    width: 90%;
     padding: 7% 5%;
     color: #7c2a04;
     background-color: #ffffff;
@@ -341,9 +340,10 @@ a.pulsingButton:hover {
 }
 
 .scroll-bg p {
-    line-height: 1.5;
-    word-spacing: 4px;
+    line-height: 1.8;
+    /* word-spacing: 4px; */
     letter-spacing: 1px;
+    font-size: 1.1em;
 }
 
 .game-reserve {
@@ -355,16 +355,17 @@ a.pulsingButton:hover {
 }
 
 .game-reserve p {
-    line-height: 1.5;
-    word-spacing: 4px;
+    line-height: 1.8;
+    /* word-spacing: 4px; */
     letter-spacing: 1px;
+    font-size: 1.1em;
 }
 
 
 /* explore page mobile view */
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 460px) {
   
     .wrap {
         display: block;
@@ -380,10 +381,11 @@ a.pulsingButton:hover {
     }
 
     .scroll-bg {
+        width: 50%;
         text-align: left;
         padding: 7% 10%;
         margin: 7% 20% 10%;
-        line-height: 1.2;
+        line-height: 1.5;
         word-spacing: 2px;
     }
 
@@ -391,8 +393,13 @@ a.pulsingButton:hover {
         font-size: 1.5rem;
     }
 
+    .scroll-bg p {
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+    }
+    
     .game-reserve {
-        line-height: 1.2;
         word-spacing: 2px;
         padding: 10% 10%;
         margin: 7% 5%;
@@ -400,6 +407,12 @@ a.pulsingButton:hover {
 
     .game-reserve h1 {
         font-size: 1.5rem;
+    }
+
+    .game-reserve p {
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-size: 1.1em;
     }
 
   
